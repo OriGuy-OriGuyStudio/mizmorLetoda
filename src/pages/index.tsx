@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div
-      className="bg-[#FBFBFB]"
+      className="bg-[#FBFBFB] overflow-hidden"
       style={{
         backgroundImage: "url(/bg.jpeg)",
         width: "100vw",
