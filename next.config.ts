@@ -1,8 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
-};
+  distDir: "out",
+}
 
-export default nextConfig;
+export default nextConfig
