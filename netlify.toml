@@ -1,6 +1,6 @@
 [build]
   publish = "out" # Specify a different directory for the publish directory
-  command = "npm run build"
+  command = "next build"
 
 [plugins]
   [[plugins]]
